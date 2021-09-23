@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400');
+
+
+
+.container {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 400;
+  color: salmon (72, 255, 0);
+  padding-bottom: 15px;
+}
+
+.letters {
+  padding-left: 0;
+  font-size: 24px;
+  list-style: none;
+  font-family: monospace;
+  li {
+    background-color: transparent;
+    color:salmon;
+    border: 1px solid blue;
+    padding: 4px 12px;
+    display: inline;
+    border-radius: 8px;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+form label {
+  color: black;
+  padding-bottom: 20px;
+}
+
+input[type="text"], input[type="submit"] {
+  background-color: transparent;
+  border: 1px solid blue;
+  border-radius: 8px;
+
+}
+
+input[type="text"] {
+  width: 75%;
+  padding: 10px;
+  color:black;
+  transition: .4s;
+}
+
+
+input[type="submit"] {
+  padding: 10px;
+  width: 15%;
+  color: blue;
+  transition: .3s;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  background-color:red;
+  border: 1px solid red;
+  font-weight: 500;
+}
